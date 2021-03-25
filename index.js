@@ -15,10 +15,10 @@ class Circle{
   
   set diameter (newDiameter){
     this.radius = newDiameter/2
-}
+  }
 
-set circumference (newCircumference){
+  set circumference (newCircumference){
     this.radius = newCircumference/(2*Math.PI)
-}
+  }
       
 }
